@@ -1,0 +1,13 @@
+{
+  "name": "صنف انگلیسی پوهنتون هرات",
+  "short_name": "صنف انگلیسی",
+  "description": "تقسیم اوقات، اطلاعیه‌ها، وظایف و منابع صنف انگلیسی",
+  "lang": "fa-AF",
+  "dir": "rtl",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f7fb",
+  "theme_color": "#173d70",
+  "icons": []
+}
