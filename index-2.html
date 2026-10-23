@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#080d19">
+  <meta name="description" content="سیستم آنلاین صنف انگلیسی پوهنتون هرات">
+  <title>صنف انگلیسی | پوهنتون هرات</title>
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="stylesheet" href="./styles.css">
+  <style>
+    :root{color-scheme:dark;--night:#070b14;--panel:#0e1625;--panel2:#121e31;--line:#24344b;--text:#edf4ff;--muted:#9aabc2;--cyan:#63e5db;--violet:#8798ff;--gold:#f2c66d;--radius:18px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:95px;background:var(--night)}body{margin:0;background:radial-gradient(ellipse at 85% -8%,#18365a 0,transparent 34%),radial-gradient(ellipse at 5% 42%,#101b32 0,transparent 32%),var(--night);color:var(--text);font-family:Inter,"Segoe UI",Tahoma,Arial,sans-serif;line-height:1.7}body,button,input,textarea,select{font-family:Inter,"Segoe UI",Tahoma,Arial,sans-serif}a{transition:color .2s,background .2s,transform .2s}button,.button{transition:transform .2s,box-shadow .2s,border-color .2s}button:hover,.button:hover{transform:translateY(-1px)}
+    .topbar{position:sticky;top:0;z-index:50;display:flex;align-items:center;gap:24px;background:#080d19eF;border-bottom:1px solid #283951;backdrop-filter:blur(20px);box-shadow:0 12px 35px #0003;padding:13px clamp(16px,4vw,58px)}.brand{display:flex;align-items:center;gap:12px;flex-shrink:0}.brand-mark{display:grid;place-items:center;width:46px;height:46px;border-radius:15px;background:linear-gradient(135deg,var(--cyan),#8391ff);color:#07111d;font-size:15px;font-weight:900;box-shadow:0 0 26px #63e5db20}.brand strong{display:block;color:#f4f7ff;font-size:15px}.brand small{display:block;color:var(--muted);font-size:11px}.topbar nav{display:flex;align-items:center;gap:5px;flex:1;overflow-x:auto;white-space:nowrap;scrollbar-width:thin}.topbar nav a{padding:9px 11px;border-radius:10px;color:#bfcee2;font-size:12px;text-decoration:none}.topbar nav a:hover,.topbar nav a:focus-visible{background:#15243a;color:var(--cyan)}
+    .button{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:1px solid transparent;border-radius:12px;padding:11px 17px;font-weight:750;font-size:12px;text-decoration:none;cursor:pointer}.button-primary{background:linear-gradient(135deg,#5ce0d6,#8795ff);color:#07111e;box-shadow:0 8px 24px #5cbbdf1c}.button-primary:hover{box-shadow:0 10px 30px #5cbbdf38}.button-light{background:#152238;color:#e8f0ff;border-color:#30435f}.button-danger{background:#3a202b;color:#ffc0c8;border-color:#61303d}.text-link{color:var(--cyan);font-weight:700;text-decoration:none}.text-link:hover{color:#a6fff7}
+    .hero{position:relative;isolation:isolate;display:grid;grid-template-columns:1.12fr .88fr;align-items:center;gap:clamp(30px,7vw,100px);padding:clamp(54px,8vw,100px) clamp(20px,8vw,120px);overflow:hidden;background:radial-gradient(ellipse at 78% 24%,#234a75 0,transparent 42%),linear-gradient(125deg,#0a1221,#101e33 58%,#101728)}.hero:before{content:"";position:absolute;z-index:-1;width:370px;height:370px;border:1px solid #8b9cff18;border-radius:50%;left:-140px;bottom:-240px;box-shadow:0 0 0 38px #8b9cff08,0 0 0 78px #63e5db05}.hero:after{content:"";position:absolute;z-index:-1;inset:0;background-image:linear-gradient(#ffffff04 1px,transparent 1px),linear-gradient(90deg,#ffffff04 1px,transparent 1px);background-size:42px 42px;mask-image:linear-gradient(90deg,transparent,#000)}.eyebrow{display:inline-block;color:var(--cyan);font-size:11px;font-weight:800;letter-spacing:.5px}.hero h1{margin:13px 0 16px;color:#f4f7ff;font-size:clamp(38px,5vw,65px);line-height:1.28;letter-spacing:-1.3px}.hero h1 em{color:var(--cyan);font-style:normal}.hero-copy>p{max-width:540px;color:#b0c0d6;font-size:15px;line-height:2}.hero-actions{display:flex;align-items:center;flex-wrap:wrap;gap:20px;margin-top:26px}.hero-card{position:relative;padding:clamp(24px,4vw,40px);border:1px solid #8fa8d433;border-radius:26px;background:linear-gradient(145deg,#ffffff0e,#ffffff04);box-shadow:0 28px 80px #0005;backdrop-filter:blur(12px)}.hero-card-top{display:flex;align-items:center;gap:9px;color:#c5d5eb;font-size:12px}.live-dot{width:8px;height:8px;border-radius:50%;background:var(--cyan);box-shadow:0 0 14px #63e5db99}.hero-symbol{display:grid;place-items:center;width:78px;height:78px;margin:28px 0 18px;border-radius:23px;background:#63e5db12;border:1px solid #63e5db2b;color:var(--cyan);font-size:35px}.hero-card h2{font-size:clamp(20px,2.6vw,29px);margin:0;color:#f4f7ff}.hero-card>p{color:#a9bad1;font-size:13px}.hero-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:26px;padding-top:21px;border-top:1px solid #ffffff14}.hero-stats>div{display:flex;flex-direction:column;gap:2px}.hero-stats strong{font-size:25px;color:var(--cyan)}.hero-stats span{font-size:11px;color:#a9bad1}
+    .strip{display:flex;align-items:center;justify-content:space-between;gap:30px;padding:26px clamp(20px,8vw,120px);background:#0b1220;border-block:1px solid var(--line)}.strip h2{margin:5px 0 0;font-size:20px;color:#f0f5ff}.strip p{max-width:520px;margin:0;color:var(--muted);font-size:12px}.section{padding:clamp(42px,6vw,76px) clamp(18px,7vw,100px);background:transparent}.section-tint{background:linear-gradient(180deg,#0a111e,#0c1422);border-block:1px solid #1d2b40}.section-heading{display:flex;align-items:flex-end;justify-content:space-between;gap:20px;margin-bottom:25px}.section-heading h2{margin:5px 0 0;color:#f0f5ff;font-size:clamp(23px,3vw,32px);letter-spacing:-.4px}.section-note{color:var(--muted);font-size:11px}.cards,.group-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.content-card,.group-card,.file-row,.auth-card,.editor-card,.manage-row{border:1px solid var(--line);border-radius:var(--radius);background:linear-gradient(145deg,#111c2e,#0d1625);box-shadow:0 14px 35px #0002}.content-card,.group-card{padding:22px;transition:transform .2s,border-color .2s,box-shadow .2s}.content-card:hover,.group-card:hover{transform:translateY(-3px);border-color:#3d5978;box-shadow:0 18px 38px #0003}.content-card h3,.group-card h3{margin:8px 0;color:#edf4ff;font-size:16px}.content-card p,.group-card ul{color:#a8b8ce;font-size:12px;line-height:1.9}.card-meta{color:#91a6c1;font-size:11px}.tag{display:inline-flex;padding:4px 9px;border-radius:8px;background:#17364b;color:#83eee4;font-size:10px;font-weight:750}.tag-warm{background:#41351c;color:#f7d58a}.file-list{display:grid;gap:10px}.file-row{display:flex;align-items:center;gap:15px;padding:16px 19px}.file-icon{display:grid;place-items:center;flex-shrink:0;width:43px;height:43px;border-radius:13px;background:#17364b;color:var(--cyan);font-weight:900}.file-details{flex:1;min-width:0}.file-details strong{display:block;color:#eaf2ff;font-size:13px}.file-details small{display:block;color:#93a6c1;font-size:11px}.empty-state{padding:24px;border:1px dashed #30415d;border-radius:15px;background:#101a2b;color:#9eafc7;text-align:center;font-size:12px}
+    .timetable-summary{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:0 0 22px}.summary-tile{position:relative;overflow:hidden;padding:19px 21px;border:1px solid #293b56;border-radius:17px;background:linear-gradient(145deg,#14233a,#0e1727)}.summary-tile:after{content:"";position:absolute;left:-20px;bottom:-34px;width:85px;height:85px;border-radius:50%;background:#63e5db08}.summary-tile span{display:block;color:#9aabc4;font-size:11px}.summary-tile strong{display:block;color:var(--cyan);font-size:27px;line-height:1.6}.table-wrap{overflow:auto;border:1px solid var(--line);border-radius:17px;background:#101a2b;box-shadow:0 16px 38px #0002}table{width:100%;min-width:740px;border-collapse:collapse}th{background:#17243a;color:#b8c8df;font-size:12px;font-weight:800}th,td{padding:14px 16px;border-bottom:1px solid #26344b;color:#e4edfb;text-align:right;font-size:12px}tbody tr:last-child td{border-bottom:0}tbody tr:hover{background:#182740}.timetable-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:16px}.day-card{min-width:0;padding:18px;border:1px solid #293b56;border-radius:18px;background:#101a2b}.day-card h3{margin:0 0 12px;color:var(--cyan);font-size:15px}.lesson-card{margin-top:9px;padding:14px;border:1px solid #293b56;border-right:3px solid var(--cyan);border-radius:12px;background:#142139}.lesson-card strong{display:block;color:#f0f5ff;font-size:14px}.lesson-card .lesson-meta{display:flex;flex-wrap:wrap;gap:7px;margin-top:7px;color:#aabbd2;font-size:11px}.lesson-pill{padding:3px 8px;border-radius:7px;background:#1c3b50;color:#8ff2e8}.timetable-mobile-title{margin:24px 0 10px;font-size:16px;color:#dfeaff}.credit-input-hint{font-size:11px;color:#8fa6c4}
+    .admin-panel{margin:32px clamp(16px,5vw,70px);padding:clamp(25px,5vw,55px);border:1px solid var(--line);border-radius:24px;background:linear-gradient(180deg,#0d1525,#090f1c);box-shadow:0 24px 70px #0003}.admin-panel[hidden],[hidden]{display:none!important}.login-form,.editor-card{display:grid;gap:14px}.auth-card{max-width:620px;padding:25px}.auth-card>p,.editor-card small{color:#9eafc7;font-size:12px}.login-form label,.editor-card label{display:grid;gap:7px;color:#c3d1e6;font-size:12px}.login-form input,.editor-card input,.editor-card textarea,.editor-card select{width:100%;min-width:0;padding:12px 13px;border:1px solid #30415c;border-radius:11px;background:#0b1322;color:#eff5ff;font-size:13px;outline:none}.login-form input:focus,.editor-card input:focus,.editor-card textarea:focus,.editor-card select:focus{border-color:var(--cyan);box-shadow:0 0 0 3px #63e5db18}.editor-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.editor-card{align-content:start;padding:22px}.editor-card h3{margin:0;color:#f0f5ff;font-size:16px}.admin-toolbar{display:flex;align-items:center;justify-content:space-between;gap:15px}.status-message{color:#ffb59f!important;font-size:12px}.manage-list{display:grid;gap:10px}.manage-row{display:flex;align-items:center;justify-content:space-between;gap:15px;padding:15px}.manage-row small{color:#9eafc7}.manage-row strong{color:#edf3ff}.config-warning{padding:14px;border:1px solid #67532a;border-radius:12px;background:#2d2718;color:#ffe2a0}.config-warning code{color:#fff0c7}.site-footer,footer{padding:38px clamp(20px,7vw,100px);background:#060a13;border-top:1px solid #1d2a3f}footer p,footer>span{color:#91a1b9;font-size:11px}.site-footer{display:flex;align-items:center;justify-content:space-between;gap:22px;flex-wrap:wrap}.site-footer .moedsh-credit{flex-basis:100%}
+    input::placeholder,textarea::placeholder{color:#71839d}::selection{background:#63e5db45;color:#fff} :focus-visible{outline:2px solid var(--cyan);outline-offset:3px}::-webkit-scrollbar{width:9px;height:9px}::-webkit-scrollbar-track{background:#090f1b}::-webkit-scrollbar-thumb{background:#2b3d57;border-radius:99px}::-webkit-scrollbar-thumb:hover{background:#3b5678}
+    @media(max-width:1050px){.topbar{gap:12px;flex-wrap:wrap}.topbar nav{order:3;flex-basis:100%;padding-top:5px}.hero{gap:30px;padding-inline:5vw}.cards,.group-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+    @media(max-width:700px){.topbar{padding:11px 14px}.brand-mark{width:40px;height:40px}.topbar nav a{padding:8px 10px}.topbar>.button{margin-right:auto}.hero{grid-template-columns:1fr;padding:43px 20px 48px;gap:28px}.hero h1{font-size:39px}.hero-copy>p{font-size:13px}.hero-card{padding:22px}.hero-symbol{width:62px;height:62px;margin:20px 0 14px}.strip{align-items:flex-start;flex-direction:column;gap:10px;padding:23px 20px}.strip h2{font-size:18px}.section{padding:43px 16px}.section-heading{align-items:flex-start;flex-direction:column;gap:8px}.section-heading h2{font-size:25px}.cards,.group-grid,.editor-grid,.timetable-cards{grid-template-columns:1fr}.timetable-summary{grid-template-columns:repeat(3,minmax(0,1fr));gap:7px}.summary-tile{padding:12px 9px}.summary-tile span{font-size:9px}.summary-tile strong{font-size:20px}.table-wrap{display:none}.timetable-mobile-title{margin-top:8px}.admin-panel{margin:20px 12px;padding:30px 15px}.auth-card,.editor-card{padding:17px}.site-footer{align-items:flex-start;flex-direction:column}.file-row{padding:13px}.manage-row{align-items:flex-start;flex-direction:column}}
+    @media(min-width:701px){.timetable-mobile-title{display:none}}
+    @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-mark">HU</div>
+      <div><strong>صنف انگلیسی</strong><small>پوهنتون هرات</small></div>
+    </div>
+    <nav aria-label="منوی اصلی">
+      <a href="#home">خانه</a><a href="#timetable">تقسیم اوقات</a><a href="#announcements">اطلاعیه‌ها</a>
+      <a href="#assignments">وظایف و امتحانات</a><a href="#files">فایل‌ها</a><a href="#groups">گروپ‌ها</a>
+    </nav>
+    <button id="admin-open" class="button button-light">پنل مدیریت</button>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow">پایگاه رسمی معلومات صنفی</span>
+        <h1>همهٔ امور صنف،<br><em>در یک‌جا.</em></h1>
+        <p>تقسیم اوقات، اطلاعیه‌ها، وظایف، منابع درسی و گروپ‌بندی را به‌آسانی دنبال کنید.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#announcements">مشاهدهٔ اطلاعیه‌ها</a><a class="text-link" href="#timetable">دیدن تقسیم اوقات ←</a></div>
+      </div>
+      <div class="hero-card">
+        <div class="hero-card-top"><span class="live-dot"></span> تابلوی صنف</div>
+        <div class="hero-symbol">文</div>
+        <h2>Learn. Practice. Progress.</h2>
+        <p>یک فضای مشترک برای آگاهی و همکاری تمام محصلان صنف.</p>
+        <div class="hero-stats"><div><strong id="stat-announcements">—</strong><span>اطلاعیه</span></div><div><strong id="stat-assignments">—</strong><span>وظیفه / امتحان</span></div><div><strong id="stat-files">—</strong><span>فایل</span></div></div>
+      </div>
+    </section>
+
+    <section class="welcome strip">
+      <div><span class="eyebrow">به تابلوی صنف خوش آمدید</span><h2>اطلاعات تازه را از دست ندهید.</h2></div>
+      <p>این سایت برای دسترسی آسان محصلان طراحی شده است. مشاهدهٔ بخش‌های عمومی به حساب کاربری نیاز ندارد.</p>
+    </section>
+
+    <section id="announcements" class="section">
+      <div class="section-heading"><div><span class="eyebrow">تازه‌ترین خبرها</span><h2>اخبار و اطلاعیه‌ها</h2></div><span class="section-note">اطلاعات تأییدشدهٔ صنف</span></div>
+      <div id="announcement-list" class="cards"><div class="empty-state">در حال دریافت اطلاعیه‌ها…</div></div>
+    </section>
+
+    <section id="timetable" class="section section-tint">
+      <div class="section-heading"><div><span class="eyebrow">برنامهٔ هفتگی</span><h2>تقسیم اوقات</h2></div><span class="section-note">چند مضمون در یک روز؛ هر مضمون با استاد، ساعت و کریدت جداگانه.</span></div>
+      <div class="timetable-summary" aria-label="خلاصه تقسیم اوقات">
+        <div class="summary-tile"><span>تعداد مضمون‌ها</span><strong id="schedule-subject-count">—</strong></div>
+        <div class="summary-tile"><span>مجموع کریدت‌های ثبت‌شده</span><strong id="schedule-credit-total">—</strong></div>
+        <div class="summary-tile"><span>روزهای دارای درس</span><strong id="schedule-day-count">—</strong></div>
+      </div>
+      <div class="table-wrap"><table><thead><tr><th>روز</th><th>ساعت</th><th>مضمون</th><th>استاد / محل</th><th>کریدت</th></tr></thead><tbody id="timetable-body"><tr><td colspan="5" class="empty-state">در حال دریافت تقسیم اوقات…</td></tr></tbody></table></div>
+      <h3 class="timetable-mobile-title">نمایش روزانه</h3><div id="timetable-cards" class="timetable-cards"><div class="empty-state">در حال دریافت تقسیم اوقات…</div></div>
+    </section>
+
+    <section id="assignments" class="section">
+      <div class="section-heading"><div><span class="eyebrow">موعدهای مهم</span><h2>وظایف و امتحانات</h2></div></div>
+      <div id="assignment-list" class="cards"><div class="empty-state">در حال دریافت…</div></div>
+    </section>
+
+    <section id="files" class="section section-tint">
+      <div class="section-heading"><div><span class="eyebrow">کتابخانهٔ صنف</span><h2>فایل‌ها و منابع درسی</h2></div></div>
+      <div id="file-list" class="file-list"><div class="empty-state">در حال دریافت فایل‌ها…</div></div>
+    </section>
+
+    <section id="groups" class="section">
+      <div class="section-heading"><div><span class="eyebrow">همکاری گروهی</span><h2>گروپ‌بندی محصلان</h2></div><span class="section-note">نام‌ها را مطابق فهرست رسمی ثبت کنید.</span></div>
+      <div id="group-list" class="group-grid"><div class="empty-state">در حال دریافت گروپ‌ها…</div></div>
+    </section>
+
+    <section class="admin-panel" id="admin-panel" hidden>
+      <div class="section-heading"><div><span class="eyebrow">دسترسی محدود</span><h2>پنل مدیریت</h2></div><button id="admin-close" class="button button-light">بستن</button></div>
+      <div id="auth-area" class="auth-card">
+        <p>برای مدیریت محتوا با حساب مجاز وارد شوید.</p>
+        <form id="login-form" class="login-form">
+          <label>ایمیل<input id="login-email" type="email" autocomplete="username" required placeholder="admin@example.com"></label>
+          <label>رمز عبور<input id="login-password" type="password" autocomplete="current-password" required placeholder="رمز عبور"></label>
+          <button class="button button-primary" type="submit">ورود امن</button>
+        </form>
+        <p id="auth-message" class="status-message" role="status"></p>
+      </div>
+      <div id="editor-area" hidden>
+        <div class="admin-toolbar"><p id="signed-in-as"></p><button id="logout" class="button button-light">خروج</button></div>
+        <div class="editor-grid">
+          <form id="announcement-form" class="editor-card"><h3>افزودن اطلاعیه</h3><label>عنوان<input name="title" required maxlength="160"></label><label>متن<textarea name="body" required rows="4"></textarea></label><label>نوع<select name="category"><option>اطلاعیه</option><option>خبر</option><option>یادآوری</option></select></label><button class="button button-primary">نشر اطلاعیه</button></form>
+          <form id="assignment-form" class="editor-card"><h3>وظیفه یا امتحان</h3><label>عنوان<input name="title" required maxlength="160"></label><label>توضیحات<textarea name="description" rows="3"></textarea></label><label>نوع<select name="kind"><option value="assignment">وظیفه</option><option value="exam">امتحان</option></select></label><label>تاریخ مهلت<input name="due_date" type="date"></label><button class="button button-primary">ثبت</button></form>
+          <form id="timetable-form" class="editor-card"><h3>افزودن مضمون به تقسیم اوقات</h3><label>روز هفته<input name="day" required placeholder="شنبه"></label><label>ساعت شروع و پایان<input name="time" required placeholder="08:00–09:30"></label><label>نام مضمون<input name="subject" required></label><label>نام استاد / محل برگزاری<input name="teacher_room" placeholder="نام استاد — صنف ۲"></label><label>تعداد کریدت<input name="credits" type="number" min="0" max="20" step="1" required value="3"></label><small class="credit-input-hint">برای هر مضمون جداگانه ثبت کنید؛ یک روز می‌تواند چند مضمون داشته باشد.</small><button class="button button-primary" type="submit">ثبت مضمون</button></form>
+          <form id="group-form" class="editor-card"><h3>افزودن گروپ</h3><label>نام گروپ<input name="name" required placeholder="گروپ A"></label><label>اعضا (هر نام در یک خط)<textarea name="members" required rows="4"></textarea></label><button class="button button-primary">ثبت گروپ</button></form>
+          <form id="file-form" class="editor-card"><h3>بارگذاری فایل درسی</h3><label>عنوان فایل<input name="title" required></label><label>فایل<input name="file" type="file" required accept=".pdf,.doc,.docx,.ppt,.pptx,.xls,.xlsx,.txt,.jpg,.png" /></label><button class="button button-primary">بارگذاری و نشر</button><small>فایل‌ها در فضای ذخیره‌سازی Supabase نگهداری می‌شوند.</small></form>
+        </div>
+        <div class="section-heading admin-content-heading"><div><span class="eyebrow">مدیریت محتوا</span><h3>حذف موارد منتشرشده</h3></div></div>
+        <div id="manage-list" class="manage-list"></div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="brand"><div class="brand-mark">HU</div><div><strong>صنف انگلیسی</strong><small>پوهنتون هرات</small></div></div>
+    <p>یک پروژهٔ صنفی برای دسترسی آسان به اطلاعات درسی.</p>
+    <span>© <span id="year"></span> — صنف انگلیسی</span>
+    <div class="moedsh-credit" style="margin-top:22px;padding-top:18px;border-top:1px solid rgba(255,255,255,.16);text-align:center">
+      <img src="./moedsh-logo.png" alt="لوگوی MOEDSH" loading="lazy" style="display:block;width:84px;max-height:84px;object-fit:contain;margin:0 auto 10px" onerror="this.style.display='none'">
+      <strong style="display:block;color:#71e0d2;letter-spacing:2px;font-size:17px">MOEDSH</strong>
+      <span style="display:block;margin-top:6px;font-size:12px">Designed &amp; Developed by MOEDSH</span>
+    </div>
+  </footer>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="./config.js"></script>
+  <script src="./app.js"></script>
+  <script>
+  (() => {
+    const form = document.getElementById('timetable-form');
+    const body = document.getElementById('timetable-body');
+    const cards = document.getElementById('timetable-cards');
+    if (!form || !body || !cards) return;
+    const marker = /\s*\[\[CREDITS:(\d+)\]\]\s*$/;
+    const days = ['شنبه','یکشنبه','دوشنبه','سه‌شنبه','چهارشنبه','پنجشنبه','جمعه'];
+    const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+    // Keep the existing Supabase schema and app.js intact: store the credit count as a small marker in the existing teacher_room text field.
+    form.addEventListener('submit', () => {
+      const room = form.elements.namedItem('teacher_room');
+      const credit = form.elements.namedItem('credits');
+      if (room && credit) {
+        room.value = room.value.replace(marker, '').trim() + ' [[CREDITS:' + Math.max(0, Number(credit.value) || 0) + ']]';
+      }
+    }, true);
+    function readRows() {
+      return [...body.querySelectorAll('tr')].filter(row => row.querySelectorAll('td').length >= 4).map(row => {
+        const cells = [...row.querySelectorAll('td')];
+        const raw = cells[3]?.textContent || '';
+        const match = raw.match(marker);
+        return {day:cells[0]?.textContent.trim() || '', time:cells[1]?.textContent.trim() || '', subject:cells[2]?.textContent.trim() || '', teacher:raw.replace(marker,'').trim() || '—', credits:row.dataset.credits !== undefined ? Number(row.dataset.credits) : (match ? Number(match[1]) : null)};
+      });
+    }
+    function render() {
+      const rows = readRows();
+      const realRows = rows.filter(r => r.subject && !r.subject.includes('در حال دریافت') && !r.subject.includes('تقسیم اوقات ثبت نشده'));
+      document.getElementById('schedule-subject-count').textContent = realRows.length;
+      document.getElementById('schedule-credit-total').textContent = realRows.some(r => r.credits !== null) ? realRows.reduce((sum,r) => sum + (r.credits || 0),0) : '—';
+      document.getElementById('schedule-day-count').textContent = new Set(realRows.map(r=>r.day)).size;
+      body.querySelectorAll('tr').forEach(row => {
+        const cells = [...row.querySelectorAll('td')];
+        if (cells.length >= 4) {
+          const raw = cells[3].textContent || '';
+          const match = raw.match(marker);
+          if (match) row.dataset.credits = match[1];
+          cells[3].textContent = raw.replace(marker,'').trim() || '—';
+          if (cells.length === 4) { const creditCell = document.createElement('td'); creditCell.className='credit-cell'; creditCell.textContent = match ? match[1] : '—'; row.appendChild(creditCell); }
+          else if (cells[4]) cells[4].textContent = match ? match[1] : '—';
+        } else if (cells.length === 1) cells[0].setAttribute('colspan','5');
+      });
+      const lessons = realRows.filter(r => r.subject && !r.subject.includes('پس از تأیید درج شود'));
+      if (!lessons.length) { cards.innerHTML = '<div class="empty-state">هنوز تقسیم اوقات ثبت نشده است.</div>'; return; }
+      const ordered = lessons.slice().sort((a,b) => { const ai=days.indexOf(a.day), bi=days.indexOf(b.day); return (ai<0?99:ai)-(bi<0?99:bi) || a.time.localeCompare(b.time); });
+      const grouped = new Map(); ordered.forEach(item => { if(!grouped.has(item.day)) grouped.set(item.day,[]); grouped.get(item.day).push(item); });
+      cards.innerHTML = [...grouped.entries()].map(([day,items]) => '<article class="day-card"><h3>' + esc(day) + ' <span style="color:#91a6c2;font-size:11px;font-weight:400">· ' + items.length + ' مضمون</span></h3>' + items.map(item => '<div class="lesson-card"><strong>' + esc(item.subject) + '</strong><div class="lesson-meta"><span>◷ ' + esc(item.time) + '</span><span>استاد/محل: ' + esc(item.teacher) + '</span><span class="lesson-pill">کریدت: ' + (item.credits === null ? 'ثبت نشده' : item.credits) + '</span></div></div>').join('') + '</article>').join('');
+    }
+    new MutationObserver(render).observe(body,{childList:true,subtree:true,characterData:true});
+    render();
+  })();
+  </script>
+</body>
+</html>
